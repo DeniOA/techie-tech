@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>TechieTech Inc.</title>
+	<link rel="stylesheet" href="cssT/animate.css">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="cssT/techieTech.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="images/parallax.js"></script>
+
+</head>
+
+<body>
+
+<!--navigation bar starts here-->
+<div class="navbar-wrapper" >
+    <div class="container">
+<!--         chnange from navbar-default to inverse, also, to make it fixed, used static, top-->
+        <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TechieTech</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About TechieTech</a></li>
+        <li><a href="#">Services</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">California</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Mumbia</a></li>
+           <li role="separator" class="divider"></li>
+<!--           duplicate the separator and change to dropdown-header and it doesnt have a class so delete that-->
+            <li role="dropdown-header">Upcoming Events</li>
+            <li><a href="#">Brazil</a></li>
+            <li><a href="#">China</a></li>
+          </ul>
+        </li>
+      </ul>
+       
+       <form class="navbar-form navbar-right">
+           <div class="form-group">
+               <input type="tex" class="form-control" placeholder="Search">
+           </div>
+           <button type="submit" class="btn btn-default">Submit</button>
+       </form>
+        
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>
+        </ul>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    </div>
+    
+</div>
+<!--navigation bar ends here-->
+
+
+<!--CAROUSEL FROM JAVASCRIPT BOOTSTRAP STARTS HERE-->
+<!--change the id to a more personal id-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!--Indicators
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol> -->
+
+<!--  Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+<!--     attach image for slide1 here-->
+      <img src="images/slide1.jpeg" alt="First slide">
+<!--      add acontainer-->
+     <div class="container">
+         <div class="carousel-caption">
+             <h1>TechieTech- technology services at your fingertip.</h1>
+             <p>Technology solutions powered by intellect.</p>
+             <p>Web Application services, Web Hosting, Network Administration.</p>
+<!--             add a paragraph with an anchor tag and also include buttons(large)-->
+             <p><a class="btn btn-default btn-lg"href="#"><i class="fa fa-cloud" aria-hidden="true"></i> Learn More</a></p>
+         </div>
+     </div>
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+<!--     add another image here-->
+      <img src="images/slide2.jpeg" alt="Second slide">
+       <div class="carousel-caption">
+             <h1>TechieTech- technology services at your fingertip</h1>
+             <p>Technology solutions powered by intellect</p>
+             <p>Web Application services, Web Hosting, Network Administration.</p>
+<!--             add a paragraph with an anchor tag and also include buttons(large)-->
+             <p><a class="btn btn-default btn-lg"href="#"> <i class="fa fa-cloud" aria-hidden="true"></i> Learn More</a></p>
+         </div>
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+    
+     <div class="item">
+<!--     add another image here-->
+      <img src="images/slide3.jpeg" alt="Third slide">
+       <div class="carousel-caption">
+             <h1>TechieTech- technology services at your fingertip</h1>
+             <p>Technology solutions powered by intellect.</p>
+             <p>Web Application services, Web Hosting, Network Administration.</p>
+<!--             add a paragraph with an anchor tag and also include buttons(large)-->
+             <p><a class="btn btn-default btn-lg"href="#"><i class="fa fa-cloud" aria-hidden="true"></i> Learn More</a></p>
+         </div>
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    
+  </div>
+
+<!--   Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+  
+<!--  Carousel ends here
+
+<!--TEAM SECTION STARTS HERE-->
+
+<!--create a div container-->
+
+<div class="container team">
+    <div class="row">
+<!--       hit cmd z then *3 + tab to do this-->
+        <div class="col-lg-4">
+<!--           add animate effect here in class-->
+            <img src="images/CEO.jpeg" alt="CEO" class="img-circle animated wobble" width="140" height="">
+            <h2>Front-end Dev</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio voluptatum earum facere! Qui aliquam consequatur earum, sint autem.</p>
+<!--            insert a button and put a caret like thing beside the sign up button-two little icons(function of the raquo)-->
+            <p><a href="#" class="btn btn-default">Sign Up &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img src="images/CEO.jpeg" alt="CEO" class="img-circle animated wobble" width="140" height="">
+            <h2>Python Dev</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio voluptatum earum facere! Qui aliquam consequatur earum, sint autem.</p>
+<!--            insert a button and put a caret like thing beside the sign up button-two little icons(function of the raquo)-->
+            <p><a href="#" class="btn btn-default">Sign Up &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img src="images/stack.jpeg" alt="CEO" class="img-circle animated wobble" width="140" height="">
+            <h2>Full-stack Dev</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio voluptatum earum facere! Qui aliquam consequatur earum, sint autem.</p>
+<!--            insert a button and put a caret like thing beside the sign up button-two little icons(function of the raquo)-->
+            <p><a href="#" class="btn btn-default">Sign Up &raquo;</a></p>
+        </div>
+    </div>
+    </div>
+     
+<!--TEAM SECTION ends HERE-->
+ 
+<hr class="divider">
+
+<!--content section starts here-->
+
+    <div class="row content">
+       <div class="col-md-7 techy" data-parallax="scroll" data-image-src="images/city.jpg">
+           <h2 class="content-heading">Bringing your Projects to Life. <span class="text-muted"> with TechieTech</span></h2>
+           <p class="lead">TechieTech transforms your company's project into rich visuals and solutions for you to focus on what matters; your customers. We handle every business as ours. Spot trends as they happen and watch us bring you the reality.</p>
+       </div>
+       <div class="col-md-5">
+           <img src="images/CTO.jpeg" alt="CTO" class="content-image img-responsive center-block">
+       </div>
+         
+         
+          </div>
+          
+    <div class="row content">
+              <div class="col-md-5">
+           <img src="images/CTO.jpeg" alt="CTO" class="content-image img-responsive center-block">
+       </div>
+        <div class="col-md-7 techy">
+           <h2 class="content-heading">Bringing your Projects to Life. <span class="text-muted"> with TechieTech</span></h2>
+           <p class="lead">TechieTech transforms your company's project into rich visuals and solutions for you to focus on what matters; your customers. We handle every business as ours. Spot trends as they happen and watch us bring you the reality</p>
+       </div>
+          </div>
+       
+<!--    CONTENT SECTION ENDS HERE-->
+    
+<!--FOOTER SECTION STARTS HERE-->
+    
+<footer>
+<p class="pull-right"><i class="fa fa-arrow-up" aria-hidden="true"></i>Move To Top</p>
+<p>&copy; 2018 TechieTech, Inc. <a href="#">Terms</a> &middot; <a href="#">Conditions</a> </p>
+</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+	
+
+</body>
+
+</html>
